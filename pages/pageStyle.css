@@ -1,0 +1,54 @@
+.content-wrapper {
+	display: flex;
+	justify-content: center;
+    margin-top: 30px;
+}
+
+.text {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.header {
+    font-size: 3vw
+}
+
+.description {
+    font-size: 1.3vw;
+}
+
+.blip {
+    font-size: 0.8vw;
+}
+
+.no-padding {
+	margin: 0;
+	padding: auto;
+}
+
+.no-touch {
+	pointer-events: none;
+	user-select: none;
+}
+
+.text-sector {
+    width: 50%;
+}
+
+.sector {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.lean-left {
+    text-align: left;
+}
+
+.lean-right {
+    text-align: right;
+}
+
+.img {
+    width: 90%;
+    height: 90%;
+}
