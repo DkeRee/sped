@@ -1,0 +1,20 @@
+#test-container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    padding: 0;
+}
+
+#test-container > div {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 2.3vw;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+	pointer-events: none;
+	user-select: none;
+}
