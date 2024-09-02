@@ -15,6 +15,8 @@ window.SpeedTest = class SpeedTest {
     }
 
     create() {
+        this.grid = [];
+
         for (var i = 0; i < 80; i++) {
             const pick = this.randRange(0, 3);
             var question;
@@ -62,13 +64,9 @@ window.SpeedTest = class SpeedTest {
             if (this.grid[i])
                 questionDisplay.textContent = this.grid[i].romanize(reveal);
 
-            test.appendChild(questionDisplay);
+            div.appendChild(questionDisplay);
         }
 
-        firstContainer.appendChild(test);
+        firstContainer.appendChild(div);
     }
 }
-
-var t = new window.SpeedTest();
-t.create();
-t.display(true);

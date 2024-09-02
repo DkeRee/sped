@@ -1,5 +1,5 @@
 #main-container {
-	width: 80%;
+	width: 85%;
 	margin: auto;
 }
 
@@ -11,7 +11,7 @@
 #top-bar {
 	border-width: 3px;
 	border-bottom-style: solid;
-	border-bottom-color: black;
+	border-bottom-color: #D6B588;
 	display: inline-flex;
 	justify-content: center;
 	width: 100%;
