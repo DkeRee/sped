@@ -22,7 +22,7 @@ window.RegQuestion = class RegQuestion {
                 break;
         }
 
-        output += `(${this.isRadian ? TO_RADIAN[this.degree] : this.degree})`;
+        output += ` ${this.isRadian ? TO_RADIAN[this.degree] : this.degree}`;
 
         if (reveal) {
             output += `      ${KEY_REG[this.degree][this.type]}`;

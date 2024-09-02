@@ -5,7 +5,7 @@ window.SpeedTest = class SpeedTest {
         this.SIN = 0;
         this.COS = 1;
         this.TAN = 2;
-        this.deg = [30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330];
+        this.deg = [0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330];
 
         this.grid = [];
     }
