@@ -11,7 +11,7 @@ window.RadQuestion = class RadQuestion {
         output += TO_RADIAN[this.degree];
 
         if (reveal) {
-            output += `    ${this.degree}`;
+            output += `      ${this.degree}`;
         }
 
         return output;

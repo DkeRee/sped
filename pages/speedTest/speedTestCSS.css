@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/times-new-roman');
+
 #test-container {
     display: grid;
     border: 2px solid black;
@@ -14,7 +16,7 @@
     width: 17vw;
     height: 2.3vw;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', sans-serif;
 	pointer-events: none;
 	user-select: none;
 }

@@ -75,7 +75,7 @@ window.ArcQuestion = class ArcQuestion {
                 }
             }
 
-            output += `    ${degWrap} / ${degWrap > 0 ? TO_RADIAN[degWrap] : "-" + TO_RADIAN[Math.abs(degWrap)]}`;
+            output += `      ${degWrap} / ${degWrap > 0 ? TO_RADIAN[degWrap] : "-" + TO_RADIAN[Math.abs(degWrap)]}`;
         }
 
         return output;

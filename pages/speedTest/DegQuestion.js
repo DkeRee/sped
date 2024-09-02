@@ -11,7 +11,7 @@ window.DegQuestion = class DegQuestion {
         output += this.degree.toString();
 
         if (reveal) {
-            output += `    ${TO_RADIAN[this.degree]}`;
+            output += `      ${TO_RADIAN[this.degree]}`;
         }
 
         return output;
